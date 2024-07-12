@@ -1,0 +1,120 @@
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-right: 8%;
+    padding-right: 12%;
+    font-size: 20px;
+    margin-left: 2%;
+    width: 28%;
+    padding-top: 20px;
+
+} 
+  .nav-menu {
+    list-style-type: none;
+    display: flex;
+    gap: 90px;
+    margin-left: 220%;
+  }
+  .icon{
+    display: none;
+  }
+
+  .nav-menu li {
+    cursor: pointer;
+    padding-left: 2%;
+  }
+
+  .nav-menu li a:hover {
+    color: #b92a2a;
+}
+
+  .nav-menu li.active::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+  }
+
+  .cancel-btn{
+    display: none;
+  }
+  .cancel-btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 12px 16px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    display: none;
+  }
+
+  .cancel-btn:hover {
+    color: #000;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .navbar{
+        width: 100%;
+        display: flex;
+        gap: 45%;
+        padding-left: 30px;
+        justify-content: space-around;
+        padding: 15px;
+        box-shadow: 0 1px 3px -2px black;
+    }
+    
+    .nav-menu{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        gap: 50px;
+        color: black;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .nav-menu li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3px;
+        cursor: pointer;
+    }
+    .nav-menu hr{
+        border: none;
+        width: 100%;
+        height: 3px;
+        border-radius: 10px;
+        background: rgb(32, 32, 146);
+    }
+    .cancel-btn{
+      display: none;
+    }
+    .cancel-btn {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 12px 16px;
+      background-color: #f5f5f5;
+      border-bottom: 1px solid #e0e0e0;
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+      cursor: pointer;
+      transition: color 0.3s ease;
+      display: none;
+    }
+  
+    .cancel-btn:hover {
+      color: #000;
+    }
+
+}
+
+
