@@ -11,6 +11,7 @@ import Blogs from './Blogs'
 
 
 
+
 const App = () => {
   return (
 
@@ -20,6 +21,7 @@ const App = () => {
       <Navbar/>
       <LandingPage/>
       <Blogs/>
+      <Video/>
 
       <Cast />
       <Resumes/>
