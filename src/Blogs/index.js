@@ -6,7 +6,7 @@ import React from "react";
 
 const Blogs = () =>{
     return(
-     <div>
+     <div className="blog-container">
         <div className="heading">
             <h1>Born A Crime Summary Blog And How It Relates With Todays societies</h1></div> 
             <div className="sammary">

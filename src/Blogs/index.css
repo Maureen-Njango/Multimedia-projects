@@ -1,7 +1,15 @@
+.blog-container{
+    background-color: hsl(215, 68%, 18%);
+    margin-top: 10%;
+    height: 1000px;
+    
 
-h1{
-    font-size: 190%;
+}
+ .heading h1{
+    font-size: 220%;
     text-align: center;
+    color: aliceblue;
+
 
 }
 .trevorNoah{
@@ -11,11 +19,13 @@ h1{
     width: 30%;
     font-size: 20px;
     font-style: oblique;
+    color: aliceblue;
 
  
 }
 .sammary{
     display: flex;
+    color: aliceblue;
     /* justify-content: center; */
     gap: 7%;
     /* margin-top: 5%; */
@@ -29,9 +39,13 @@ h1{
     justify-content: center;
     margin-top: 5%;
     gap: 7%;
+    color: aliceblue;
     
 
 
+}
+.heading{
+    color: black;
 }
 .openbook{
     width: 450px;
