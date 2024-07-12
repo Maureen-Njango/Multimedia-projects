@@ -16,18 +16,8 @@ const Cast = () => {
         <div className='text'>
         <h2>Welcome to Our Podcast</h2>
         <div>
-            Greetings listeners! Welcome to the [Podcast Name],<br></br>
-             where we dive into fascinating topics and conversations that<br></br>
-              will expand your mind and enrich your life. I'm your host, [Your Name], <br></br>
-                and I'm thrilled to have you join me on this journey of discovery.<br></br>
-            Each episode, we'll explore a wide range of subjects, from science and technology<br></br>
-             to philosophy, the arts, and everything in between. You'll hear from brilliant minds, <br></br>
-             experts in their fields, and everyday people with extraordinary stories to tell. Together,<br></br>
-              we'll unpack complex ideas, challenge our assumptions, and gain new perspectives on the world around us.<br></br>
-             So whether you're commuting to work, working out at the gym, or simply relaxing at home, grab your headphones <br></br>
-             and get ready to embark on an intellectual adventure. The [Podcast Name] is your go-to source for thought-provoking <br></br>
-             content that will leave you feeling inspired, informed, and eager to learn more.
-            
+        Hello, We are Techchix, and welcome to the ‘The Women In Tech’ podcast,<br></br> where we cover all things robotic in K12 education! Today we have the young women ,<br></br> who are software Developers, and semi-professional Battle Bot makers. We’re going to talk about the<br></br> latest news of women in tech and how some of them got started to become who they are now.<br></br> I’m looking forward to an interesting fun interview with tech women.
+
         </div>
         <h3>Coming Soon</h3>
         <button>Subscribe</button>
