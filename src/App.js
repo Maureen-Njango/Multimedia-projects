@@ -1,17 +1,16 @@
-import Blogs from "./Blogs";
-import './App.css';
-import Portfolio from './Portfolio'
-
+import Navbar from './Navbar/index.js';
+import LandingPage from './Landinpage/index.js';
+import Resumes from './Resumes';
 
 
 function App() {
   return (
-    <div>
-      <Blogs/>
-      <Portfolio/>
-
+    <div className="App">
+      <Navbar/>
+      <LandingPage/>
+      <Resumes/>
       
-
+     
     </div>
   );
 }
