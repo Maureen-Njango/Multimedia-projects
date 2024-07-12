@@ -1,3 +1,6 @@
+// import logo from './logo.svg';
+import './App.css';
+import Video from './Video';
  
 import React from "react";
 import Cast from "./Podcast";
@@ -8,20 +11,20 @@ import Blogs from './Blogs'
 
 
 
+
 const App = () => {
   return (
+
   
      
     <div className="App">
       <Navbar/>
       <LandingPage/>
       <Blogs/>
+      <Video/>
 
       <Cast />
       <Resumes/>
-    
-      
-     
   
     </div>
   )
