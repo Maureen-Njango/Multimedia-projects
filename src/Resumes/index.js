@@ -11,15 +11,14 @@ const Resumes = () => {
         <img src= "/imagesC/Faith.jpg" alt='member-one' id='fay'/>
       <div className='caption'>
          <h5>Faith Munyao</h5>
-         <p>Software Developer</p>
-         <p><a href='https://faith-s-portfolio-5951fte3h-ada-lab.vercel.app/'> my portfolio</a></p>
+         <p><a href='https://faith-s-portfolio-5951fte3h-ada-lab.vercel.app/' className='software'> Software Developer</a></p>
         </div>
         </div>
   <div>
     <img src="/imagesC/jango.jpg" alt='member-two' id='mauren'/>
        <div className='caption'>
           <h5>Maureen Njango</h5>
-          <p>Software Developer</p>
+          <p><a href='https://trialcover.vercel.app/' className='software'> Software Developer</a></p>
         </div>
         </div>
 
@@ -27,7 +26,8 @@ const Resumes = () => {
     <img src="/imagesC/Megan.png" alt='member-three' id='adhiambo'/>
     <div className='caption'>
        <h5>Megan Adhiambo</h5>
-        <p>Software Developer</p>
+        <p><a href='https://portfolio-n4vj3ow0x-megan-otienos-projects.vercel.app/' className='software'>Software Developer</a></p>
+
         </div>
         </div>
     </div>
@@ -37,7 +37,7 @@ const Resumes = () => {
         <img src='/imagesC/Loice.png'alt='member-four' id='staice'/>
      <div className='caption'>
        <h5>Loice Staice</h5>
-         <p>Software Developer</p>
+      <p> <a href ='https://www.freepik.com/designer/edit?template=9c7fb692-0334-4259-a9a8-312c14cb9d74' className='software'>Software Developer</a></p>
          <p></p>
             </div>
            </div>

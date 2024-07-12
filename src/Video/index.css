@@ -1,6 +1,8 @@
 .video-container{
     width: 1800px;
+    /* margin-top: 20px; */
     height: 900px;
+    margin-bottom: 20px;
 }
 .video-loom{
     width: 1600px;
