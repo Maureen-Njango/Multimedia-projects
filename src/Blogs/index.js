@@ -21,8 +21,9 @@ const Blogs = () =>{
             
         </div>
             <div className="humor">
-            <p>
-                Humor as a coping mechanism . This apprach helped him in navigating through difficult circumstances , an example is when Trevor and the mother escaped from a moving vihivcle where the driver wanted to harm them . This approach offers a lens to process and reflect on the challanging society's issues .
+            <p><a href='https://docs.google.com/document/d/1W3MaWDTuk-v8s4mW0zW6WfIjGNDg0maRV0pB_fIdudI/edit'>                Humor as a coping mechanism . This apprach helped him in navigating through difficult circumstances , an example is when Trevor and the mother escaped from a moving vihivcle where the driver wanted to harm them . This approach offers a lens to process and reflect on the challanging society's issues .
+</a>
+
                 </p>
                
             <img src='/Media/whitebook.jpg' alt=" showing a book for trevor noah" className="openbook"/>
@@ -36,7 +37,9 @@ const Blogs = () =>{
                 </div>
 
    
-        
+                <div id="rappers">
+        <a href='https://docs.google.com/presentation/d/1wBzA8kSVlD20KdCjnBg_XPjcfRTQCUa6mJ-vIqNS0sg/edit#slide=id.p' id='local'>The Local and Foreign Local Rappers</a>
+    </div>
         </div>  
      
     );
