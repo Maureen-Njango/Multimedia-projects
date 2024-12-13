@@ -2,6 +2,7 @@
     background-color: hsl(215, 68%, 18%);
     margin-top: 10%;
     height: 1000px;
+    margin-top: 80px;
     
 
 }
@@ -62,9 +63,23 @@
 .humor p{
     width: 20%;
     font-size: 20px;
+    -webkit-text-fill-color: white;
     font-style: oblique;
 
 
+}
+#local{
+    height: 100px;
+    font-size: 60px;
+    font-weight: bolder;
+    padding-bottom: 70px;
+}
+#rappers{
+    background-color: black;
+    height: 100px;
+    -webkit-text-fill-color: white;
+    font-size: xx-large;
+    margin-top: 50px;
 }
 @media (min-width: 250px) and (max-width: 750px){
     h1{

@@ -1,11 +1,13 @@
 .podcast{
 display: flex;
 padding-top: 5%;
-background-color:#0F2A4F
+background-color:#0F2A4F;
+height: 500px;
+
 }
 .pod img{
     width: 70%;
-    margin-left: 80px;
+    margin-left: -100px;
     border-radius: 20px;
     margin-top: -28px;
 }
@@ -30,6 +32,23 @@ button{
 }
 .text{
     margin-top: 20px;
+}
+#unfiltered{
+    -webkit-text-fill-color:white;
+    width: 400px;
+    font-size: large;
+}
+#first{
+    -webkit-text-fill-color: white;
+    margin-left: -300px;
+
+}
+#follow{
+    -webkit-text-fill-color: white;
+}
+#episodes{
+    margin-left: -350px;
+    margin-right: 20px;
 }
 
 @media (max-width:480px){
